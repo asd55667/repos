@@ -1,0 +1,54 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=827846 to learn about workspace recommendations.
+  // Extension identifier format: ${publisher}.${name}. Example: vscode.csharp
+
+  // List of extensions which should be recommended for users of this workspace.
+  "recommendations": [
+    // vue
+    "vue.volar",
+    "vue.vscode-typescript-vue-plugin",
+    // front-end
+    "formulahendry.auto-close-tag",
+    "formulahendry.auto-complete-tag",
+    "formulahendry.auto-rename-tag",
+    "kisstkondoros.vscode-gutter-preview",
+    "mrmlnc.vscode-less",
+    "runem.lit-plugin",
+    
+    "stylelint.vscode-stylelint",
+    "dbaeumer.vscode-eslint",
+    "jasonnutter.search-node-modules",
+    
+    "alfnielsen.vsc-rename-files",
+    "pflannery.vscode-versionlens",
+    "ms-playwright.playwright",
+    "christian-kohler.path-intellisense",
+    "antfu.iconify",
+    "mikestead.dotenv",
+    "ritwickdey.liveser",
+    "esbenp.prettier-vscode",
+    "yoavbls.pretty-ts-errors",
+    "johnsoncodehk.vscode-tsconfig-helper",
+    
+    // 
+    "ms-vscode.cpptools-extension-pack",
+    "twxs.cmake",
+    "ziglang.vscode-zig",
+
+    
+    // tool
+    "vscode-icons-team.vscode-icons",
+    "wayou.vscode-todo-highlight",
+    "yog.yog-plantuml-highlight",
+    "well-ar.plantuml",
+    "jebbs.plantuml",
+    "editorconfig.editorconfig",
+    "eamodio.gitlens",
+    "waderyan.gitblame",
+    "usernamehw.errorle",
+    "steoates.autoimport",
+    "streetsidesoftware.code-spell-checker"
+  ],
+  // List of extensions recommended by VS Code that should not be recommended for users of this workspace.
+  "unwantedRecommendations": []
+}
