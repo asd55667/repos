@@ -1,17 +1,5 @@
-SUFFIX=$(echo $1 | awk '{ print tolower($1) }')
-
-ENV_FILE=".env.local"
-if [[ $SUFFIX != "" ]]; then
-  ENV_FILE=".env.$SUFFIX"
-fi
-source $ENV_FILE
-
-function echo_blue {
-  echo "\033[36m$*\033[0m"
-}
-function echo_green {
-  echo "\033[32m$*\033[0m"
-}
+#! /bin/bash
+source ./utils.sh
 
 echo_blue "Repo's Directory is: $REPOS_DIR"
 
@@ -39,6 +27,13 @@ done
 # get each repo's info which include git remote,
 # and then write to file with column: repo,remote
 echo_blue "Start to write repo info to file: $REPO_INFO_FILE"
+
+# if file exists, then delete it
+if [[ -f $REPO_INFO_FILE ]]; then
+  rm $REPO_INFO_FILE
+fi
+# create file and write header
+touch $REPO_INFO_FILE
 echo "Repo,Remote" > $REPO_INFO_FILE
 for repo in ${REPOS_EXCEPT_IGNORES[@]}; do
   cd $REPOS_DIR/$repo || continue

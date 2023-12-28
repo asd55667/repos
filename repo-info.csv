@@ -64,7 +64,6 @@ joi,https://github.com/hapijs/joi
 js-logger,https://github.com/jonnyreeves/js-logger
 jsPDF,https://github.com/MrRio/jsPDF.git
 jsjs-homework,https://github.com/bramblex/jsjs-homework.git
-json-tutorial,https://github.com/miloyip/json-tutorial.git
 lambda-view,https://github.com/Jianru-Lin/lambda-view.git
 language-tools,https://github.com/vuejs/language-tools.git
 learning-threejs,https://github.com/josdirksen/learning-threejs.git
@@ -188,3 +187,16 @@ yjs,https://github.com/yjs/yjs.git
 yjs-demos,https://github.com/yjs/yjs-demos.git
 yup,https://github.com/jquense/yup
 zod,https://github.com/colinhacks/zod.git
+WFPlayer,https://github.com/zhw2590582/WFPlayer
+enhanced-resolve,https://github.com/webpack/enhanced-resolve.git
+json-rust,https://github.com/maciejhirsz/json-rust.git
+json-tutorial,git@github.com:asd55667/json-tutorial.git
+oxc,https://github.com/oxc-project/oxc.git
+promises-tests,git@github.com:asd55667/promises-tests.git
+puppeteer,https://github.com/puppeteer/puppeteer.git
+serde_json,https://github.com/serde-rs/json.git
+simd-json,https://github.com/simd-lite/simd-json.git
+simdjson,https://github.com/simdjson/simdjson.git
+tapable,https://github.com/webpack/tapable.git
+vuetify,https://github.com/vuetifyjs/vuetify.git
+wavesurfer.js,https://github.com/katspaugh/wavesurfer.js/

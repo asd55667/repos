@@ -1,18 +1,11 @@
+#! /bin/bash
+source ./utils.sh
+
 N_THREAD=$(echo $1 | awk '{ print tolower($1) }')
 
 if [[ $N_THREAD == "" ]]; then
   N_THREAD=1
 fi
-
-ENV_FILE=".env.local"
-source $ENV_FILE
-
-function echo_blue {
-  echo "\033[36m$*\033[0m"
-}
-function echo_green {
-  echo "\033[32m$*\033[0m"
-}
 
 echo_blue "CSV file is: $REPO_INFO_FILE"
 echo_blue "Repo's Directory is: $REPOS_DIR"
